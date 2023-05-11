@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.PersonActivity"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/nameEditText"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        />
+    <EditText
+        android:id="@+id/valueEditText"
+        app:layout_constraintTop_toBottomOf="@id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/value"
+        />
+    <EditText
+        android:id="@+id/descriptionEditText"
+        app:layout_constraintTop_toBottomOf="@id/valueEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        />
+
+    <Button
+        android:id="@+id/createButton"
+        app:layout_constraintTop_toBottomOf="@id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

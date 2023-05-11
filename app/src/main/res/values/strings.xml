@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SplitTheBill</string>
+    <string name="name">Nome</string>
+    <string name="value">Gasto</string>
+    <string name="description">Comprou</string>
+    <string name="add_person">Adicionar pessoa</string>
+    <string name="clear_all">Limpar lista</string>
+    <string name="remove_person">Deletar pessoa</string>
+    <string name="update_person">Editar pessoa</string>
+    <string name="description_template">Comprou: %1$s</string>
+    <string name="value_template">Valor gasto: R$ %1$s</string>
+    <string name="difference_template">Diferença: R$ %1$s"</string>
+</resources>
